@@ -2,7 +2,7 @@
 How I set up my first development environment - this is good stuff
 
 
-### Installed Homebrew im terminal
+### Installed Homebrew in terminal
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -26,3 +26,23 @@ brew install --cask iterm2
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+
+### Install SSH for github
+
+```
+ssh-keygen -t ed25519 -C "aidanboyce213@gmail.com"
+```
+- Then upload the public key in my setting on github
+
+### Some brew installs
+
+- brew install python
+- brew install python-tk
+- brew install openjdk11
+- brew install maven
+
+### Install IDEs
+
+- IntelliJ Idea
+- PyCharm
+
